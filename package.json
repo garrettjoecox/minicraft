@@ -1,0 +1,28 @@
+{
+  "name": "minicraft.js",
+  "version": "0.0.1",
+  "description": "A WIP javascript port of Notch's Minicraft",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrettjoecox/minicraft.js.git"
+  },
+  "author": "Garrett Cox <garrettjcox@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garrettjoecox/minicraft.js/issues"
+  },
+  "homepage": "https://github.com/garrettjoecox/minicraft.js#readme",
+  "devDependencies": {
+    "rollup": "^0.47.6",
+    "rollup-plugin-typescript": "^0.8.1",
+    "rollup-watch": "^4.3.1",
+    "tslint": "^5.6.0",
+    "tslint-config-airbnb": "^5.2.1",
+    "typescript": "^2.4.2"
+  }
+}
